@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ca-ES">
+<head>
+    <title>Proyecto-2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/estils.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <script async src="js/app.js" type="module"></script>
+
+</head>
+<body>
+    
+    <header class="logo">
+        <img src="img/logo/LaSerietulia-h.svg" alt="logo">
+    </header>
+
+    <main class="principal">
+        <article class="tele">
+            <picture>
+                <source src="img/foto_figma/victoria-kubiaki-yeFJNtA3604-unsplash.jpg">
+                <source src="img/foto_figma/victoria-kubiaki-yeFJNtA3604-unsplash@2x.jpg 2x">
+                <source src="img/foto_figma/victoria-kubiaki-yeFJNtA3604-unsplash@3x.jpg 3x">
+                <img src="img/foto_figma/victoria-kubiaki-yeFJNtA3604-unsplash@3x.jpg" alt="tele">
+            </picture>
+            <div class="tele2">
+                <h1>Maníacs de les sèries? <span class="primer">Teniu una cita ineludible.</span></h1>
+    
+                <p>Els pròxims 22 i 23 de novembre tens una cita que no pots deixar perdre. Passa't a compartir la teva passió pel setè art "de sofà" amb uns convidats excepcionals.</p>
+    
+                <!-- <form id="formulario" method="post" enctype="application/x-www-form-urlencoded" name="formulario" action="envio.php" class="form1">
+                    preventdeFault 
+    
+                    <ul class="formu">
+                        <li>
+                            <input id="email" type="email" name="email" tabindex="1" value=""> 
+    
+                        </li>
+    
+                        <li>
+                            <input id="privacidad" type="checkbox" name="checkbox" class="check">
+                            <label for="privacidad">He llegit i accepto la <span class="form">política de privacitat</span></label>
+                        </li>
+        
+                    </ul>
+    
+                    <div class="boton">
+                        <button type="submit">Alta Newsletter</button>
+    
+                    </div>
+    
+                </form>         -->
+
+                <h2>Vols rebre informació?</h2>
+
+
+                <form method="post" enctype="application/x-www-form-urlencoded">
+
+                    <fieldset>
+
+                        <ul class="info">
+                            <li>
+                                <input id="email" type="email" pattern="^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$" required tabindex="1">
+                            </li>
+                        </ul>
+            
+                        
+                        <ul class="on">
+                            <li>
+                                <input type="checkbox" name="check">
+                                <label for="check">He llegit i accepto la <span class="form">política de privacitat</span></label>
+                            </li>
+                        </ul>
+
+                    </fieldset>
+        
+                    <div class="alta">
+                        <button type="submit">Alta Newsletter</button>
+                    </div>
+        
+            </form>
+    
+            </div>
+
+        </article>    
+
+    </main>
+
+    <h2>Activitats dins del festival</h2>
+
+    <section class="estructura">
+
+        <article class="uno">
+            <div class="coffee">
+                <img src="img/icons/coffee-solid.svg" alt="cafe">
+                <p>Taules rodones</p>
+            </div>
+
+            <div class="video">
+                <img src="img/icons/video-solid.svg" alt="video">
+                <p>Projecció de sèries</p>
+            </div>
+           
+        </article>
+
+        <article class="dos">
+
+            <div class="conver">
+                <img src="img/icons/comments-solid.svg" alt="conver">
+                <p>Debats amb els convidats</p>
+            </div>
+
+            <div class="address">
+                <img src="img/icons/address-card-solid.svg" alt="address">
+                <p>Serietúlia pro</p>
+            </div>
+            
+        </article>
+
+    </section>
+
+    <section class="actores">
+        <h2>Convidats de luxe</h2>
+        <p>Actors, actrius i guionistes convidats a les xerrades i debats en el visionament de capítols emblemàtics que es duà a terme en la Filmoteca</p>   
+
+        <div id="articles"></div>
+    </section>
+
+    <section class="series-gr">
+        <h2>Les millors sèries</h2>
+        <p>Troba les sèries que projectarem al festival a la teva plataforma</p>
+
+
+        <div class="botones">
+            <button id="tot-filtre" type="button">Totes</button>
+            <button id="hbo-filtre" type="button">HBO Max</button>
+            <button id="netflix-filtre" type="button">Netflix</button>
+            <button id="filmin-filtre" type="button">Filmin</button>
+            <button id="prime-filtre" type="button">Prime</button>
+            <button id="disney-filtre" type="button">Disney+</button>
+        </div>
+
+
+        <div class="serie">
+                                                                   
+            <div class="series-plat" title="prime">
+                <img src="img/series/the-office.jpg" alt="the office">
+            </div>
+
+            <div class="series-plat" title="netflix">
+                <img src="img/series/luther.jpg" alt="luther">
+            </div>
+
+            <div class="series-plat" title="hbo">
+                <img src="img/series/killing-eve.jpg" alt="killing eve">
+            </div>
+
+            <div class="series-plat" title="filmin">
+                <img src="img/series/halt-and-catch-fire.jpg" alt="halt">
+            </div>
+
+            <div class="series-plat" title="hbo">
+                <img src="img/series/girls.jpg" alt="girls">
+            </div>
+
+            <div class="series-plat" title="prime">
+                <img src="img/series/fleabag.jpg" alt="fleabag">
+            </div>
+
+            <div class="series-plat" title="filmin">
+                <img src="img/series/firefly.jpg" alt="firefly">
+            </div>
+
+            <div class="series-plat" title="disney">
+                <img src="img/series/castle.jpg" alt="castle">
+            </div>
+
+        </div>
+        
+  
+    </section>
+
+    <h2>Vols rebre informació?</h2>
+
+
+        <form method="post" enctype="application/x-www-form-urlencoded">
+
+            <fieldset>
+                <ul class="info">
+                    <li>
+                        <input id="email" type="email" pattern="^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$" required tabindex="1">
+                    </li>
+                </ul>
+    
+                
+                <ul class="on">
+                    <li>
+                        <input type="checkbox" name="check">
+                        <label for="check">He llegit i accepto la <span class="form">política de privacitat</span></label>
+                    </li>
+                </ul>
+            </fieldset>
+    
+               
+    
+                <div class="alta">
+                    <button type="submit">Alta Newsletter</button>
+                </div>
+    
+        </form>
+
+
+   
+
+
+    <h2>Espais i dates</h2>
+
+    <section class="espais">
+
+            <img src="img/foto_figma/Rectangle.png" alt="mapa">
+
+            <address>
+
+                <ul>
+                    <li class="data">22 i 23 de novembre</li>
+                    <li class="film">Filmoteca de Cataluña</li>
+                    <li class="cont">Plaça Salvador Seguí, 1-9</li>
+                    <li class="cont">08001 Barcelona</li>
+
+                </ul>
+
+                <ul>
+                    <li class="rest">Restaurant «La Monroe»</li>
+                    <li class="cont">Plaça Salvador Seguí</li>
+                    <li class="cont">08001 Barcelona</li>
+                </ul>
+            </address>
+
+    </section>
+
+    <footer>
+        
+            <h2>Patrocinadors i col·laboradors</h2>
+            <article class="under_main">
+                <div class="underline"></div>
+            </article>
+
+            <div class="one">
+                <img src="img/patrocinadors/Estrella-logo.png" class="estrella" alt="Estrella Damn">
+                <img src="img/patrocinadors/Vichy-logo.png" class="vichy" alt="Vichy Catalan">
+            </div>
+
+            <div class="prin">
+                <div>
+                    <img src="img/patrocinadors/HBO-logo.png" class="hbo" alt="HBO">
+                    <img src="img/patrocinadors/Netflix-logo.png" class="netflix" alt="Netflix">
+                </div>
+
+                <div>
+                    <img src="img/patrocinadors/RTVE-logo.png" class="rtve" alt="RTVE">
+                    <img src="img/patrocinadors/iCatFm-logo.png" class="icat" alt="ICAT">
+                </div>
+
+                <div>
+                    <img src="img/patrocinadors/TimeOut-logo.png" class="time" alt="Time Out">
+                    <img src="img/patrocinadors/Ajuntament-logo.png" class="ajuntament" alt="Ajuntament">
+                </div>
+
+                <div>
+                    <img src="img/patrocinadors/Beteve-logo.png" class="beteve" alt="Beteve">
+                    <img src="img/patrocinadors/FilmFestival-logo.png" class="film" alt="Film Festival">
+                </div>
+
+                <div>
+                    <img src="img/patrocinadors/Escac-logo.png" class="escac" alt="Escac">
+                    <img src="img/patrocinadors/Cccb-logo.png" class="cccb" alt="CCCB">
+                </div>
+    </footer>
+
+    <script src="js/filtro.js"></script> 
+    <!-- <script src="js/validacion.js"></script> -->
+
+<!-- 
+    <script>
+     $('serie').owlCarousel({
+            margin:10,
+            loop:false,
+            autoWidth:true,
+            items:4
+        });
+    </script> -->
+   
+</script>
+
+</body>
+</html>

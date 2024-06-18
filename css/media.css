@@ -1,0 +1,181 @@
+/*PANTALLA PEQUE */
+
+@media screen and (max-width:360px) {
+    .logo img {
+        width: 402px;   
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal img {
+        width: 360px;
+        height: 240px;
+    }
+
+    h1 {
+        width: 312px;
+        text-align: center;
+    }
+
+    .principal p {
+        width: 312px;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .tele {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .estructura {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .uno {
+        margin-left: 40px;
+    }
+
+    .uno p  {
+        text-align: center;
+    }
+
+    .video {
+        margin-right: 25px;
+    }
+
+    .dos {
+        margin-left: 30px;
+    }
+
+    .dos p {
+        text-align: center;
+    }
+
+    .alta {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    form {
+        display: block;
+    }
+
+    .series-gr {
+        display: none;
+    }
+
+    .prin {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prin div {
+        display: flex;
+    }
+}
+
+
+
+/* PANTALLA GRANDE */
+
+@media screen and (min-width:1200px) {
+    .under_main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .underline {
+        border-bottom: 2px black solid;
+        width: 1100px;
+    }
+    
+    .prin {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .one {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .estrella {
+        width: 157px;
+        height: 100px;
+    }
+    
+    .vichy {
+        width: 250px;
+        height: 100px;
+    }
+    
+    .hbo {
+        width: 147px;
+        height: 105px;
+    }
+    
+    .netflix {
+        width: 202px;
+        height: 85px;
+    }
+    
+    .rtve {
+        width: 139px;
+        height: 72px;
+    }
+    
+    .icat {
+        width: 160px;
+        height: 60px;
+    }
+    
+    .time {
+        width:  230px;
+        height: 84px;
+    }
+    
+    .ajuntament {
+        width: 118px;
+        height: 40px;
+    }
+    
+    .beteve {
+        width: 147px;
+        height: 40px;
+    }
+    
+    .film {
+        width: 174px;
+        height: 40px;
+    }
+    
+    .escac {
+        width: 92px;
+        height: 68px;
+    }
+    
+    .cccb {
+        width: 263px;
+        height: 40px;
+    }
+    
+}

@@ -1,0 +1,65 @@
+{
+    "convidats":[
+        {
+            "nom": "Phoebe Waller-Bridge",
+            "descripcio": "Creadora, guionista i actriu. Killing Eve i Fleabag els seus referents",
+            "img": {
+                "src": "img/phoebe-waller-bridge@3x.png",
+                "srcset": "img/phoebe-waller-bridge.jpg, img/phoebe-waller-bridge@2x.png 2x, img/phoebe-waller-bridge@3x.png 3x",
+                "alt": "Imatge de Phoebe Waller-Bridge"
+            },
+            "modal": "Veure biografia"               
+    },
+    {
+            "nom": "Nathan Fillion",
+            "descripcio": "Actor conegut per Castle i sèries de culte com Firefly (Joss Whedon) i Community",
+            "img": {
+                "src": "img/nathan-fillion@3x.png",
+                "srcset": "img/nathan-fillion.jpg, img/nathan-fillion@2x.png 2x, img/nathan-fillion@3x.png 3x",
+                "alt": "Imathe de Nathan Fillion"
+            },
+            "modal": "Veure biografia"
+    },
+    {
+            "nom": "Lena Dunham",
+            "descripcio": "Creadora, guionista i actriu. Camping i Girls fan d’ella una de les veus de la seva generació.",
+            "img": {
+                "src": "img/lena-dunham@3x.png",
+                "srcset": "img/lena-dunham.jpg, img/lena-dunham@2x.png 2x, img/lena-dunham@3x.png 3x",
+                "alt": "Imatge de Lena Dunham"
+            },
+            "modal":"Veure biografia"
+    },
+    {
+            "nom": "Idris Elba",
+            "descripcio": "Polifacètic actor, conegut per el seu rol principal a Luther (BBC) i a sèries de culte com The Office .",
+            "img": {
+                "src": "img/idris-elba@3x.png",
+                "srcset": "img/idris-elba.jpg, img/idris-elba@2x.png 2x, img/idris-elba@3x.png 3x",
+                "alt": "Imatge de Idris Elba"
+            },
+            "modal": "Veure biografia"
+    },
+    {
+            "nom": "Mackenzie Davis",
+            "descripcio": "Actriu i també productora. Coneguda pel seu paper co-protagonista a Halt and Catch Fire i per sèries com Black Mirror.",
+            "img": {
+                "src": "img/mackenzie-davis@3x.png",
+                "srcset": "img/mackenzie-davis.jpg, img/mackenzie-davis@2x.png 2x, img/mackenzie-davis@3x.png 3x",
+                "alt": "Imatge de Mackenzie Davis"
+            },
+            "modal": "Veure biografia"
+    },
+    {
+            "nom": "Toby Huss",
+            "descripcio": "Actor de repartiment a una bona quantitat de sèries. Conegut pels seus papers a Halt and Catch Fire, Feud i Carnivàle.",
+            "img": {
+                "src": "img/toby-huss@3x.png",
+                "srcset": "img/toby-huss.jpg, img/toby-huss@2x.png 2x, img/toby-huss@3x.png 3x",
+                "alt": "Imatge de Toby Huss"
+            },
+            "modal":"Veure biografia"
+    }
+]
+    
+}
